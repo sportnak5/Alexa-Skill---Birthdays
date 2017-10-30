@@ -1,0 +1,41 @@
+{
+  "intents": [
+    {
+      "intent": "whoseBirthday"
+    },
+    {
+      "slots": [
+        {
+          "name": "person",
+          "type": "Name"
+        }
+      ],
+      "intent": "isBirthday"
+    },
+    {
+      "slots": [
+        {
+          "name": "person",
+          "type": "Name"
+        },
+        {
+          "name": "date",
+          "type": "AMAZON.DATE"
+        }
+      ],
+      "intent": "setBirthday"
+    },
+    {
+      "intent": "celebrityBirthday"
+    },
+    {
+      "slots": [
+        {
+          "name": "person",
+          "type": "Name"
+        }
+      ],
+      "intent": "howOld"
+    }
+  ]
+}
